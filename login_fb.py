@@ -15,6 +15,7 @@ def test_login(user, passwd):
     elem.send_keys(passwd)
     sleep(3)
     elem.send_keys(Keys.RETURN)
+    sleep(9)
     driver.close()
 
 
